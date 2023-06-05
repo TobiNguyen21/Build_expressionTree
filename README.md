@@ -4,7 +4,10 @@ Calculator
 
 ## Mô hình tổng quan
 
-
+<div align="center">
+   <h2 align="center">Hello World 👋. I'm Tobi</h2>
+    <img src="./public/Explain" width="100"/>
+</div>
 
 ## Cài đặt
 
