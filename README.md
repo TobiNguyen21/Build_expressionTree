@@ -5,13 +5,29 @@ Calculator
 ## Mô hình tổng quan
 
 <div align="center">
-   <h2 align="center">Hello World 👋. I'm Tobi</h2>
-    <img src="./public/Explain" width="100"/>
+    <img src="./public/Explain.png"/>
 </div>
 
-## Cài đặt
+## Mô tả ý tưởng thực hiện
 
-Hướng dẫn cài đặt dự án trên môi trường cục bộ. Bao gồm các bước cài đặt phần mềm cần thiết và cách khởi chạy dự án.
+Với dữ liệu đầu vào là một biểu thức nhập từ bàn phím thì ta có được 1 biểu
+thức với kiểu chuỗi (string).
+Bước 1: Từ biểu thức kiểu chuỗi có được, ta bắt đầu ta phân tách thành một
+mảng string gồm các phần tử toán hạng, toán tử, dấu “(“, dấu “)”.
+Vd: chuỗi nhập vào là “2*(100-10) + 40 / (9-(10-3))” sau khi phân tách thành
+mảng ta có được một mảng kiểu chuỗi gồm:
+{“2”, “*”, “(“, “100”, “-”, “10”, “)”, “+”, “40”, “/”, “(“, “9”, “-”, “(”, “10”, “-”, “3”, “)”, “)”}
+Bước 2: Sau khi có được mảng chuỗi của biểu thức, để thực hiện cài đặt lên
+cây và biết được phép tính nào tính trước hay tính sau, thì ta thực hiện chuyển đổi
+mảng biểu thức kiểu chuỗi trên thành một mảng biểu thức hậu tố (postfix).
+Phương pháp chuyển đổi sang hậu tố: (em đã tìm hiểu và biết được phương
+pháp chuyển sang hậu tố được gọi là: Ký pháp nghịch đảo Ba Lan). Với ví dụ trên
+em đã giải như hình sau để ra được mảng hậu tố
+{“2”, “100”, “10“, “-”, “*”, “40”, “9”, “10”, “3”, “-”, “-”, “/”, “+”}
+
+<div align="center">
+    <img src="./public/table.png"/>
+</div>
 
 ## Sử dụng
 
