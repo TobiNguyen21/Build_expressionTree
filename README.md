@@ -3,7 +3,7 @@
 ## Mô hình tổng quan
 
 <div align="center">
-    <img src="./public/Explain.png"/>
+    <img src="./public/explain.png"/>
 </div>
 
 ## Mô tả ý tưởng thực hiện
@@ -36,4 +36,11 @@ ví dụ trên:
 
 <div align="center">
     <img src="./public/buildTree.png"/>
+</div>
+
+## Thực hiện chạy chương trình và kiểm thử các trường hợp
+
+
+<div align="center">
+    <img src="./public/testCase.png"/>
 </div>
