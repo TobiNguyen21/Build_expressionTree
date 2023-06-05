@@ -20,9 +20,8 @@ mảng ta có được một mảng kiểu chuỗi gồm:
 **Bước 2:** Sau khi có được mảng chuỗi của biểu thức, để thực hiện cài đặt lên
 cây và biết được phép tính nào tính trước hay tính sau, thì ta thực hiện chuyển đổi
 mảng biểu thức kiểu chuỗi trên thành một mảng biểu thức hậu tố (postfix).
-Phương pháp chuyển đổi sang hậu tố: (em đã tìm hiểu và biết được phương
-pháp chuyển sang hậu tố được gọi là: Ký pháp nghịch đảo Ba Lan). Với ví dụ trên
-em đã giải như hình sau để ra được mảng hậu tố
+Phương pháp chuyển đổi sang hậu tố: (phương pháp chuyển sang hậu tố được gọi là: Ký pháp nghịch đảo Ba Lan).
+Với ví dụ trên đã giải như hình sau để ra được mảng hậu tố
 `{“2”, “100”, “10“, “-”, “*”, “40”, “9”, “10”, “3”, “-”, “-”, “/”, “+”}`
 
 <div align="center">
